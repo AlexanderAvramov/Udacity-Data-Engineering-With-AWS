@@ -31,6 +31,8 @@ The Glue tables were created using the following SQL scripts:
 Here's what they look like in Athena.
 ![Customer Landing](./images/customer_landing.png)
 
+![Customer Landing2](./images/customer_landing2.png)
+
 ![Accelerometer Landing](./images/accelerometer_landing.png)
 
 ### Trusted Zone
