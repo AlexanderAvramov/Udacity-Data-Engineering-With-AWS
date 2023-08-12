@@ -53,5 +53,5 @@ Here's what they look like in Athena:
 The Glue jobs that get the data from trusted to curated are:
 
 [customer_trusted_to_curated.py](./scripts/customer_trusted_to_curated.py): Getting data for those customers that have opted in AND also that have accelerometer data
-[machine_learning_curated.py](./machine_learning_curated.py): Aggregating a table that has each of the step trainer data points joined to the corresponding accelerometer data, only for customers who have opted into sharing data
+[machine_learning_curated.py](./scripts/machine_learning_curated.py): Aggregating a table that has each of the step trainer data points joined to the corresponding accelerometer data, only for customers who have opted into sharing data
 
