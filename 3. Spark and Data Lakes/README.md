@@ -22,7 +22,13 @@ Some of the early adopters have agreed to share their data for research purposes
 ## Project Summary
 
 ### Landing Zone
+The Glue tables were created using the following SQL scripts:
+[customer_landing.sql](./scripts/customer_landing.sql)
+[accelerometer_landing.sql](./scripts/customer_landing.sql)
 
+Here's what they look like in Athena.
+![Customer Landing](./images/customer_landing.png)
+![Accelerometer Landing](./images/customer_landing.png)
 
 ### Trusted Zone
 
