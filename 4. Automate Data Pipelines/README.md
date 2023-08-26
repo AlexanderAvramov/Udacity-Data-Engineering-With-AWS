@@ -43,7 +43,7 @@ This is where the operators are housed.
 
 ### Images
 This folder contains the the graph of the sucessful DAG.
-![dag](/airflow/images/dag.png)
+![dag](./airflow/images/dag.png)
 
 ## Steps
 1. I copied the song and events data from the Udacity S3 Bucket into my own project bucket. I also copied over the manifest file for the events data.
@@ -51,9 +51,9 @@ This folder contains the the graph of the sucessful DAG.
 3. I entered into the Airflow UI and triggered the execution of the DAG. 
 
 ## Results
-![all_tables](/airflow/images/all_tables.png)
-![artists](/airflow/images/artists.png)
-![songplays](/airflow/images/songplays.png)
-![songs](/airflow/images/songs.png)
-![time](/airflow/images/time.png)
-![users](/airflow/images/users.png)
+![all_tables](./airflow/images/all_tables.png)
+![artists](./airflow/images/artists.png)
+![songplays](./airflow/images/songplays.png)
+![songs](./airflow/images/songs.png)
+![time](./airflow/images/time.png)
+![users](./airflow/images/users.png)
