@@ -10,7 +10,7 @@ The source data resides in S3 and needs to be processed in Sparkify's data wareh
 ## Project Details
 This project will introduce us to the core concepts of Apache Airflow. To complete the project, we will need to create our own custom operators to perform tasks such as staging the data, filling the data warehouse, and running checks on the data as the final step.
 
-[image](https://video.udacity-data.com/topher/2019/January/5c48a861_example-dag/example-dag.png)
+![image](https://video.udacity-data.com/topher/2019/January/5c48a861_example-dag/example-dag.png)
 
 ## Data
 For this project, we'll be working with two datasets. Here are the s3 links for each:
@@ -43,7 +43,7 @@ This is where the operators are housed.
 
 ### Images
 This folder contains the the graph of the sucessful DAG.
-[dag](/airflow/images/dag.png)
+![dag](/airflow/images/dag.png)
 
 ## Steps
 1. I copied the song and events data from the Udacity S3 Bucket into my own project bucket. I also copied over the manifest file for the events data.
@@ -51,9 +51,9 @@ This folder contains the the graph of the sucessful DAG.
 3. I entered into the Airflow UI and triggered the execution of the DAG. 
 
 ## Results
-[all_tables](/airflow/images/all_tables.png)
-[artists](/airflow/images/artists.png)
-[songplays](/airflow/images/songplays.png)
-[songs](/airflow/images/songs.png)
-[time](/airflow/images/time.png)
-[users](/airflow/images/users.png)
+![all_tables](/airflow/images/all_tables.png)
+![artists](/airflow/images/artists.png)
+![songplays](/airflow/images/songplays.png)
+![songs](/airflow/images/songs.png)
+![time](/airflow/images/time.png)
+![users](/airflow/images/users.png)
